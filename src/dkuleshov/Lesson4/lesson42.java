@@ -1,10 +1,13 @@
 package Lesson4;
 
 public class lesson42 {
-    public static void main (String[] args){
-        String text = "Would you like cup of kvas?";
-        System.out.println(("Would you like cup of kvas?"));
-        int number = text.split(" ").length;
-        System.out.println("слов в представленном предложении = "+number);
+    public static void main(String[] args) {
+        String str = "kak dela, kak     kakpozhivaesh?";
+        System.out.println(str);
+        int chi = str.split("\\s+").length;
+        System.out.println("koli4estvo slov ravno " + chi);
     }
 }
+
+
+
